@@ -1,0 +1,23 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 56, in script
+    jump end_game_transition
+renpy.script.LabelNotFound: could not find label 'end_game_transition'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "game/script.rpy", line 56, in script
+    jump end_game_transition
+  File "renpy/ast.py", line 1928, in execute
+    rv = renpy.game.script.lookup(target)
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "renpy/script.py", line 1163, in lookup
+    raise LabelNotFound(original)
+renpy.script.LabelNotFound: could not find label 'end_game_transition'.
+
+Windows-10-10.0.19041-SP0 AMD64
+Ren'Py 8.4.0.25071206
+ANTIMAGE 1.0
+Sat Jul 26 19:06:16 2025
