@@ -3,6 +3,7 @@
 define m = Character('Монах Турстаркури', color="#500fa6")
 define a = Character('Антимаг', color="#927bfa")
 define b = Character('Голос мести', color="#4000f1")
+define myFont = "Brahms Gotisch.ttf"
 
 label start:
 
